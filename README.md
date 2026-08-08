@@ -76,8 +76,8 @@ The solution uses Google Cloud Storage as the persistent storage layer and Googl
   * **`landing_to_bronze.py`** – Converts Landing CSV files into Bronze Parquet files
   * **`bronze_to_silver.py`** – Cleans and validates Bronze data
   * **`silver_to_gold.py`** – Creates business-focused Gold reports
-* **`hive/**`** – Hive external table definitions and queries
-* **`pig/**`** – Apache Pig scripts and execution logs
-* **`docs/**`** – Project documentation and design details
-* **`screenshots/**`** – Pipeline execution results and query output screenshots
+* **`hive/`** – Hive external table definitions and queries
+* **`pig/`** – Apache Pig scripts and execution logs
+* **`docs/`** – Project documentation and design details
+* **`screenshots/`** – Pipeline execution results and query output screenshots
 

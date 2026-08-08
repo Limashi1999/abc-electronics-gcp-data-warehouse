@@ -65,13 +65,14 @@ The solution uses Google Cloud Storage as the persistent storage layer and Googl
 
 
 ## Repository Structure
-### 📁 Repository Structure
 
 * **`data/`** – Data files used in the data warehouse
   * **`landing/`** – Raw CSV files exported from SQL Server
   * **`bronze/`** – Raw data converted to Parquet format
   * **`silver/`** – Cleaned and validated Parquet data
   * **`gold/`** – Business-ready analytical tables
+* **`sql/`** – SQL Server database scripts
+  * **`InventoryDW.sql`** – SQL script used to create and populate the relational data warehouse in SSMS
 * **`scripts/`** – PySpark ETL scripts
   * **`landing_to_bronze.py`** – Converts Landing CSV files into Bronze Parquet files
   * **`bronze_to_silver.py`** – Cleans and validates Bronze data
@@ -80,4 +81,6 @@ The solution uses Google Cloud Storage as the persistent storage layer and Googl
 * **`pig/`** – Apache Pig scripts and execution logs
 * **`docs/`** – Project documentation and design details
 * **`screenshots/`** – Pipeline execution results and query output screenshots
+
+
 

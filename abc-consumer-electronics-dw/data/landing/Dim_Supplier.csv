@@ -1,0 +1,12 @@
+supplier_key,supplier_name,supplier_description,supplier_phone,supplier_email,supplier_fax,first_line_address,supplier_postcode,supplier_city,supplier_state,supplier_country_id
+1,CANON,,,,,,,,,
+2,ENE,,,,,,,,,
+3,HAMA,,,,,,,,,
+4,HILLS,,,,,,,,,
+5,JVC,,,,,,,,,
+6,MSCS,,,,,,,,,
+7,Samsung,,,,,,,,,
+8,SENNHEISER,,,,,,,,,
+9,SONY,,,,,,,,,
+10,TOSHIBA,,,,,,,,,
+11,VIV,,,,,,,,,

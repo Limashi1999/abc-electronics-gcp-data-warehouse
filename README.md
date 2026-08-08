@@ -80,7 +80,7 @@ The solution uses Google Cloud Storage as the persistent storage layer and Googl
 * **`hive/`** – Hive external table definitions and queries
 * **`pig/`** – Apache Pig scripts and execution logs
 * **`docs/`** – Project documentation and design details
-* **`screenshots/`** – Pipeline execution results and query output screenshots
+
 
 
 
